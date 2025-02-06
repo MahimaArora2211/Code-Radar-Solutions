@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int a=5;
-    int b=10;
-    int c=15;
+    int a,b,c;
+    
     
     scanf("%d",&a);
     scanf("%d",&b);
