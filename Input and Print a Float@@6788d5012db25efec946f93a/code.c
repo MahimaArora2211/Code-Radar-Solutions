@@ -1,8 +1,6 @@
 #include <stdio.h>
-
-
 int main() {
-    printf("%f",&a);
-    print("You entered : %.2f",a);
+    scanf("%f",&a);
+    printf("You entered : %f",a);
     return 0;
 }
