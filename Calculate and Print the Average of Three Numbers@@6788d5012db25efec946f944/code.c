@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int a,b,c;
+    int a=5;
+    int b=10;
+    int c=15;
     
     
     scanf("%d",&a);
