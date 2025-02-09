@@ -1,19 +1,23 @@
 #include <stdio.h>
+
 int main() {
-  int Age=25;
+    int Age = 25;
+    char Name[50];   
+    char Hobby[100]; 
 
-  char Name[50];
+    
+    
+    scanf("%s", Name); 
+    printf("Name: %s \n", Name);
 
-  char Hobby[100];
+    
+    scanf("%d", &Age);
+    printf("Age: %d \n", Age);
 
-  scanf("%s",&Name);
-  printf("Name: %s \n",Name);
+    
+    
+    scanf("%s", Hobby); 
+    printf("Hobby: %s \n", Hobby);
 
-  scanf("%d",&Age);
-  printf("Age: %d \n",Age);
-
-  scanf("%s",&Hobby);
-  printf("Hobby: %s \n ",Hobby);
-
-  return 0;
+    return 0;
 }
