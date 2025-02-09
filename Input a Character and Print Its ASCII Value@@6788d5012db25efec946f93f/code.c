@@ -2,9 +2,9 @@
 
 int main() {
     char a=A;
-    int b=a;
-    scanf("%c",a);
-    scanf("%d",b);
+    
+    scanf("%d",a);
+    
     printf("ASCII Value: %d",b);
     return 0;
 }
