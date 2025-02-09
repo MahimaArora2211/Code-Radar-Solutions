@@ -10,6 +10,6 @@ int main() {
     scanf("%d",&c);
     float average=a+b+c/2;
     scanf("%e",average);
-    printf("Average: %.2f", );
+    printf("Average: %.2f", average);
     return 0;
 }
