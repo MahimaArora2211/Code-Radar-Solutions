@@ -2,13 +2,7 @@
 
 int main() {
     char ch;
-    
-    
-    
     scanf("%c", &ch);
-
-    
-    printf("The ASCII value of '%c' is: %d\n", ch, ch);
-    
+    printf("ASCII value  %d\n",ch);
     return 0;
 }
