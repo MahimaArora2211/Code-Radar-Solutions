@@ -4,9 +4,9 @@ int main() {
     scanf("%d",&a);
     scanf("%d",&b);
     scanf("%d",&c);
-    if (a>b) && (a>b){
+    if ((a>b) && (a>b)) {
         printf("%d",a);
-    } elseif (b>a) && (b>c) {
+    } else if ((b>a) && (b>c)){
         printf("%d",b);
     } else {
         printf("%d",c);
