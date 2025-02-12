@@ -9,8 +9,7 @@ int main(){
     } else if (SP>CP) {
         printf("Profit");
     } else {
-        printf("No loss");
+        printf("No Profit Noloss");
     }
     return 0;
-
 }
