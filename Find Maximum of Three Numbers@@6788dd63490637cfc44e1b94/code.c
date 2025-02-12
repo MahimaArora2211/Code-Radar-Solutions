@@ -6,7 +6,7 @@ int main() {
     scanf("%d",&c);
     if (a>b) && (a>b){
         printf("%d",a);
-    } else if (b>a) && (b>c) {
+    } elseif (b>a) && (b>c) {
         printf("%d",b);
     } else {
         printf("%d",c);
