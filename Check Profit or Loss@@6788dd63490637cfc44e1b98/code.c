@@ -4,10 +4,10 @@ int main(){
     int SP;
     scanf("%d",&CP);
     scanf("%d",&SP);
-    if (CP>SP) {
-        printf("Loss");
-    } else if (SP>CP) {
+    if (SP>CP) {
         printf("Profit");
+    } else if (CP>SP) {
+        printf("Loss");
     } else {
         printf("No Profit No loss");
     }
