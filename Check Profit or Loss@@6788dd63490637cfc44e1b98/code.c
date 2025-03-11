@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
     int CP;
-    int SP;
     scanf("%d",&CP);
+    int SP;
     scanf("%d",&SP);
     if (SP > CP) {
         printf("Profit");
