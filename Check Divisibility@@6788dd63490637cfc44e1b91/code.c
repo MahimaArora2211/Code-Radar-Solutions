@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main{
-    int a;
-    scanf("%d",&a);
+    int num;
+    scanf("%d",&num);
     
-    if ((a%11==0) && (a%5==0)) {
+    if ((num%11==0) && (num%5==0)) {
         printf("Divisible");
     } else {
         printf("Not Divisible");
