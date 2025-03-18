@@ -3,28 +3,30 @@
 int main() {
     int num, i;
 
-    // Read the input number
-  
+    // Take input from the user
+    printf("Enter a number: ");
     scanf("%d", &num);
 
-    // Handle edge case: numbers less than 2 are not prime
+    // Handle edge case: numbers less than or equal to 1 are not prime
     if (num <= 1) {
-        printf("Prime\n", num);
+        printf("%d is not a prime number.\n", num);
         return 0;  // Exit the program
     }
 
-    // Check divisibility from 2 to num-1
+    // Check if the number is divisible by any number between 2 and num-1
     for (i = 2; i < num; i++) {
         if (num % i == 0) {
-            printf("%d%dNot Prime.\n", num);
-            return 0;  // Exit the program as the number is not prime
+            // If divisible, it is not prime
+            printf("%d is not a prime number.\n", num);
+            return 0;
         }
     }
 
-    // If no divisor was found, the number is prime
-    
+    // If no divisors found, it is a prime number
+    printf("%d is a prime number.\n", num);
 
     return 0;
 }
+
 
 
