@@ -2,7 +2,7 @@
 
 int main() {
     double a, b, c;  
-    printf("Enter the lengths of the three sides of the triangle: ");
+    
     scanf("%lf %lf %lf", &a, &b, &c);
 
     
