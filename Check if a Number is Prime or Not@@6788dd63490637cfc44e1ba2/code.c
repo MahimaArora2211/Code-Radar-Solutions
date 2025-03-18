@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <mathio.h>
+#include <math.h>
 
 int main() {
     int num, i;
