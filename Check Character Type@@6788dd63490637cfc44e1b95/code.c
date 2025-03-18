@@ -15,15 +15,15 @@ int main() {
     }
     // Check if the character is a consonant
     else if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) {
-        printf("Consonant.\n");
+        printf("Consonant\n");
     }
     // Check if the character is a digit
     else if (isdigit(ch)) {
-        printf("Digit.\n");
+        printf("Digit\n");
     }
     
     else {
-        printf("Special character.\n");
+        printf("Special character\n");
     }
 
     return 0;
