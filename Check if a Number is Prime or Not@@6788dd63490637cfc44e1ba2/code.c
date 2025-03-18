@@ -3,8 +3,7 @@
 int main() {
     int num, i;
 
-    // Take input from the user
-    printf("Enter a number: ");
+   
     scanf("%d", &num);
 
     // Handle edge case: numbers less than or equal to 1 are not prime
@@ -23,7 +22,7 @@ int main() {
     }
 
     // If no divisors found, it is a prime number
-    printf("%dPrime\n", num);
+    printf("Prime\n");
 
     return 0;
 }
