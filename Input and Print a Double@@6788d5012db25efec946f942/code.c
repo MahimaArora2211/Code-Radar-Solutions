@@ -6,10 +6,10 @@ int main() {
     // Prompt the user for input
    
     // Read the input using scanf
-    scanf("%.4lf", &num);
+    scanf("%lf", &num);
 
     // Print the input using printf
-    printf("You entered: %.4lf\n", num);
+    printf("You entered: %lf\n", num);
 
     return 0;
 }
