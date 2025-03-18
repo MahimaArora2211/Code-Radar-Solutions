@@ -8,7 +8,7 @@ int main() {
 
     // Check if the number is divisible by both 3 and 5
     if (num % 3 == 0 && num % 5 == 0) {
-        printf("Divisible by both");
+        printf("Divisible by Both");
     }
     // Check if the number is divisible by 3
     else if (num % 3 == 0) {
