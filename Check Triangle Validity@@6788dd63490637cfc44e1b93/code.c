@@ -7,9 +7,9 @@ int main() {
 
     
     if (a + b > c && a + c > b && b + c > a) {
-        printf("The sides form a valid triangle.\n");
+        printf("Valid\n");
     } else {
-        printf("The sides do not form a valid triangle.\n");
+        printf("Invalid\n");
     }
 
     return 0;
