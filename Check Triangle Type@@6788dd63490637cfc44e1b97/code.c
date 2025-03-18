@@ -11,15 +11,15 @@ int main() {
     if (a + b > c && a + c > b && b + c > a) {
         // Check if all sides are equal (Equilateral)
         if (a == b && b == c) {
-            printf("Equilateral triangle\n");
+            printf("Equilateral\n");
         }
         // Check if exactly two sides are equal (Isosceles)
         else if (a == b || a == c || b == c) {
-            printf("Isosceles triangle\n");
+            printf("Isosceles\n");
         }
         // If no sides are equal (Scalene)
         else {
-            printf("Scalene triangle\n");
+            printf("Scalene\n");
         }
     }
     return 0;
