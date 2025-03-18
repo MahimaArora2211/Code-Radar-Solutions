@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main(){
-    char a;
-    if (a="A"){
+    char num;
+    if (num="A"){
         printf("Excellent");
-    } else if (a="B"){
+    } else if (num="B"){
         printf("Good");
-    } else if (a="C"){
+    } else if (num="C"){
         printf("Average");
-    } else if (d="D") {
+    } else if (num="D") {
         printf("Below Average");
     } else{
         printf("Fail");
