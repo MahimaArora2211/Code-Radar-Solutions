@@ -9,7 +9,7 @@ int main() {
 
     // Handle edge case: numbers less than or equal to 1 are not prime
     if (num <= 1) {
-        printf("%d is not a prime number.\n", num);
+        printf("%dNot Prime\n", num);
         return 0;  // Exit the program
     }
 
@@ -17,16 +17,15 @@ int main() {
     for (i = 2; i < num; i++) {
         if (num % i == 0) {
             // If divisible, it is not prime
-            printf("%d is not a prime number.\n", num);
+            printf("%dNot Prime\n", num);
             return 0;
         }
     }
 
     // If no divisors found, it is a prime number
-    printf("%d is a prime number.\n", num);
+    printf("%dPrime\n", num);
 
     return 0;
 }
-
 
 
