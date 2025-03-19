@@ -10,7 +10,7 @@ int main() {
     // Check if the month is valid
     if (month < 1 || month > 12) {
         printf("Invalid month\n");
-        
+        return 1;
     }
 
     // Ask for the year if the month is February
@@ -29,7 +29,7 @@ int main() {
         if (month == 4 || month == 6 || month == 9 || month == 11) {
             printf("30\n");
         } else {
-            printf("31\n");
+            printf("31\n", month);
         }
     }
 
