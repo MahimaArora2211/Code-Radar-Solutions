@@ -1,16 +1,23 @@
 #include <stdio.h>
-int main(){
+
+int main() {
     char num;
-    scanf("%c",&num)
-    if (num="A"){
+
+    // Take input as a character
+    scanf("%c", &num);
+
+    // Check the value of the input
+    if (num == 'A') {
         printf("Excellent");
-    } else if (num="B"){
+    } else if (num == 'B') {
         printf("Good");
-    } else if (num="C"){
+    } else if (num == 'C') {
         printf("Average");
-    } else if (num="D") {
+    } else if (num == 'D') {
         printf("Below Average");
-    } else{
+    } else {
         printf("Fail");
     }
+
+    return 0;
 }
