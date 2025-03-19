@@ -5,12 +5,12 @@ int main() {
 
     // Input two integers
     
-    scanf("%d %d", &a, &b);
+    scanf("%d %d",&a, &b);
 
    
 
     // Bitwise OR (|)
-    printf(" %d\n", a | b);
+    printf("%d", a | b);
 }
 
     
