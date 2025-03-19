@@ -18,7 +18,7 @@ int main() {
     } else if  (num == 'E') {
         printf("Fail");
     } else {
-        printf("Invalid grade")
+        printf("Invalid grade");
     }
 
     return 0;
