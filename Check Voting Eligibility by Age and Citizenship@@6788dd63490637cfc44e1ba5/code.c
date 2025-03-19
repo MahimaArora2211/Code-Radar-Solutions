@@ -12,9 +12,9 @@ int main() {
     } else if ((age >= 18) && (c==0)){
         printf("Not Eligible");
     } else if ((age<=18) && c==1) {
-        printf("Not eligible");
+        printf("Not Eligible");
     } else {
-        printf("Not eligible");
+        printf("Not Eligible");
     }
 
     return 0;
