@@ -15,7 +15,7 @@ int main() {
 
     // Ask for the year if the month is February
     if (month == 2) {
-        
+        printf("Enter the year to check for leap year: ");
         scanf("%d", &year);
 
         // Check for leap year: divisible by 4 but not 100, unless divisible by 400
@@ -29,7 +29,7 @@ int main() {
         if (month == 4 || month == 6 || month == 9 || month == 11) {
             printf("30\n");
         } else {
-            printf("Number of days in month %d: 31\n", month);
+            printf("31");
         }
     }
 
