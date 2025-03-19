@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(){
     char num;
+    scanf("%d",&num)
     if (num="A"){
         printf("Excellent");
     } else if (num="B"){
