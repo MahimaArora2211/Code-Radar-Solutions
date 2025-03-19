@@ -1,15 +1,21 @@
 #include <stdio.h>
-int main(){
+
+int main() {
     char a;
-    scanf("%c",&a)
-    if (a=="R"){
+
+    // Take input as a single character
+    scanf("%c", &a);
+
+    // Check the value of the input
+    if (a == 'R') {
         printf("Stop");
-    } else if (a=="G"){
+    } else if (a == 'G') {
         printf("Go");
-    } else if (a=="Y"){
+    } else if (a == 'Y') {
         printf("Slow Down");
     } else {
         printf("Invalid Input");
     }
+
     return 0;
 }
