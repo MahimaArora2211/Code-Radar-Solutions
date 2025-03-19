@@ -20,9 +20,9 @@ int main() {
 
         // Check for leap year: divisible by 4 but not 100, unless divisible by 400
         if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
-            printf("29\n");
-        } else {
             printf("28\n");
+        } else {
+            printf("29\n");
         }
     } else {
         // For other months, display the number of days based on the month
